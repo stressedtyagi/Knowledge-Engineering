@@ -1,0 +1,12 @@
+SELECT
+    "A1"."TYPE",
+    AVG("A2"."CHARGE" * "A2"."COUNT") 
+FROM
+    "SYSTEM"."SALES_GAME" "A2",
+    "SYSTEM"."SPECTATOR" "A1"
+WHERE
+    "A1".SPEC_ID="A2".SPEC_ID
+GROUP BY
+    "A1"."TYPE";
+    
+--SELECT * FROM SALES_GAME;

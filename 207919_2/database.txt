@@ -1,0 +1,7 @@
+T1 h 
+T2 a r e i j z n 
+T3 a q s x i j k n 
+T4 b s d f l m n o 
+T5 q b r s c t x y m 
+T6 p a q c d f g y m 
+T7 d e h 
